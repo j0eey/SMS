@@ -3,7 +3,7 @@ import { useAdminStore } from "../store/adminStore";
 import { useUserStore } from "../store/userStore";
 
 const api = axios.create({
-  baseURL: import.meta.env.VITE_API_URL || "https://api.smslb.shop/api",
+  baseURL: import.meta.env.VITE_API_URL || "https://smslb.shop/api",
 });
 
 let isRefreshing = false;

@@ -43,7 +43,7 @@ export const useUserStore = create<UserState>((set, get) => ({
     try {
       const axios = (await import("axios")).default;
       const res = await axios.post(
-        `${import.meta.env.VITE_API_URL || "https://api.smslb.shop/api"}/auth/refresh`,
+        `${import.meta.env.VITE_API_URL || "https://smslb.shop/api"}/auth/refresh`,
         { refreshToken },
         { withCredentials: true }
       );
