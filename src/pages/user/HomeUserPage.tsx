@@ -25,7 +25,7 @@ export default function HomeUserPage() {
           powered by the most trusted automation system.
         </p>
         <button
-          onClick={() => navigate("/Services")}
+          onClick={() => navigate("/services")}
           className="mt-8 px-8 py-3 bg-gradient-to-r from-red-600 to-red-500 rounded-lg font-medium hover:from-red-500 hover:to-red-500 transition shadow-lg relative z-10">
           Get Started
         </button>
